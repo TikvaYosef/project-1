@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient( rgb(61, 231, 236), white);
+  
+    
+}
+.navbar{
+    background-color: paleturquoise !important;
+    opacity: 0.8;
+}
+.navbar-brand{
+    color: lightsalmon !important;
+    font-size: 25px;
+}
+#welcome h1{
+    animation-name:welcome ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+#welcome{
+    text-align: center;
+    font-family: fantasy;  
+}
+#welcome img{
+    opacity: 0.8;
+    width: 70%;
+
+}
+@keyframes welcome{
+    0%{
+        0px
+    }
+    25%{
+        color: coral;
+    }
+    100%{
+        
+        color:darkorchid;
+    }
+}
+#welcome h3{
+    color:indigo;
+    animation-name:odot ;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction:alternate-reverse;
+}
+
+
+@keyframes odot{
+    0%{0px}
+    100%{
+        margin-left:50%;
+    }   
+}
+table, th, td {
+    position: relative;
+    border: 1px solid black;
+    padding: 20px;
+  }
+#table{
+    margin-left: 20%;
+}
+#ovdim article{
+    direction: rtl;
+    display: inline-flex;
+    margin-top: 100px;
+}
+#ovdim h3, h5{
+    text-align: center;
+    margin-top: 100px;
+}
+#ovdim img{
+    border-radius: 200px;
+}
+#form{
+    
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+
+
